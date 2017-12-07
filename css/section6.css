@@ -1,0 +1,22 @@
+#section6{
+	background-image: url('../ressources/iphone-6-in-black-and-white-edit-picjumbo-com.jpg');
+	width: 100%;	
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+.fond{
+	background-color: #333333;
+	opacity: 0.5;
+	border: 2px groove #999999;
+	margin: 0 5% 0 10% ;
+	
+}
+.orange{
+	background-color: #FF7B06;
+	border: 2px groove #000000;
+	box-shadow: 5px 5px 5px 5px #000000;
+}
+
+/*input::placeholder {
+  color: #1C5972;
+}*/

@@ -1,0 +1,13 @@
+li{
+	list-style-type: none;
+}
+
+.carousel-item img{
+	width: 100%;
+	margin: auto;
+}
+
+.controlslide{
+	font-size: 200px;
+	color: orange;
+}

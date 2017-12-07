@@ -1,0 +1,56 @@
+#section1{
+	background-color: #333333;	
+}
+
+#presentation{
+	color: #FF7B06;
+	font-family: 'Indie Flower', cursive;
+}
+
+#article1 ul
+{
+	padding-bottom: 25%;
+}
+
+.contenu{
+	border: 4px #999999 groove;
+    color: #1C5972;    
+    width: 80%;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Inder', sans-serif;   
+}
+
+.denomination{
+	color: #718118;
+	font-family: 'Indie Flower', cursive;	 
+}
+
+.suppression{
+	list-style-type: none;	
+}
+
+.ligne{
+	vertical-align: top;
+    display: inline-block;
+}
+
+.cadre{
+	height: 350px;
+}
+
+@media screen and (max-width: 1024px){
+	.ligne{
+		display:block;
+	}
+
+	.contenu
+	{
+		width: 90%;
+		margin: auto;
+	}
+
+	#article1 ul
+	{
+		padding-bottom: 0;
+	}

@@ -1,0 +1,42 @@
+.decoration{
+	border: 2px solid #000000;
+	list-style-type: none;
+	font-size: 20px;
+	background-color: #ffffff;
+	font-family: 'Inder', sans-serif;
+	width: 100%;
+}
+
+.decoration:focus {
+background-color: #1C5972;
+}
+
+#menularge{
+	width: 100%;
+	z-index: 9999;
+}
+
+#logo{
+	width: 20%;
+}
+
+#menucourt{
+	display: none;
+	position: fixed;
+	padding:0;
+	z-index: 9999;
+}
+
+.dropdown-menu
+{
+	width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+#menucourt{
+	display: block;
+}
+#menularge{
+	display:none;
+}
+}

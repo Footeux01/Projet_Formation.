@@ -1,0 +1,199 @@
+#section2{
+
+	background-image: url(../ressources/image1.jpg);
+
+	opacity: .8%;
+
+	background-size: 100% 100%;
+
+	opacity: .9;
+
+	text-align: center;
+
+	margin-bottom: 20%;
+
+}
+
+
+
+#titresection2
+
+{
+
+	margin: 3% 0;
+
+	color: #FF7B06;
+
+}
+
+
+
+#titretripart1, #titretripart2, #titretripart3
+
+{
+
+	
+
+	text-shadow: 1px -2px 1px rgba(0, 0, 0, 1);
+
+	margin-top: 20%;
+
+	color: #718118;
+
+}
+
+
+
+#tripart1, #tripart2, #tripart3
+
+{
+
+	margin-top: 10%;
+
+	text-align: left;
+
+	background: black;
+
+	width: 80%;
+
+	margin: auto;
+
+	height: 300px;
+
+	border: 2px solid #333333;
+
+	padding: 5% 0;
+
+}
+
+
+
+#tripart1 li 
+
+{
+
+	padding: 0 0 0 5%;
+
+	list-style-type: none;
+
+	text-align: left;
+
+	text-indent: 40px;
+
+}
+
+
+
+#tripart2 ul li, #tripart3 ul li
+
+{
+
+	text-indent: 40px;
+
+	list-style-type: none;
+
+}
+
+
+
+#tripart2 ul li:before, #tripart3 ul li:before
+
+{
+
+	content: '• ';
+
+}
+
+
+
+#tripart1 p
+
+{
+
+	text-indent: 10px;
+
+}
+
+
+
+#tripart1 p, li, #tripart2 ul li, #tripart3 ul li
+
+{
+
+	color: #1C5972;
+
+}
+
+
+
+#retour_section1
+
+{
+
+    position: fixed; /* Fixed/sticky position */
+
+    bottom: 10px; /* Place the button at the bottom of the page */
+
+    right: 10px;
+
+    z-index: 99; /* Make sure it does not overlap */
+
+    border: solid 2px black; /* Remove borders */
+
+    box-shadow: 3px 3px 3px 0px rgb(0,0,0);
+
+    outline: none; /* Remove outline */
+
+    background-color: orange; /* Set a background color */
+
+    color: black; /* Text color */
+
+    cursor: pointer; /* Add a mouse pointer on hover */
+
+    border-radius: 1px; /* Rounded corners */
+
+    padding: 1px 10px 0px 10px;
+
+    font-size: 18px;
+
+}
+
+
+
+.screen
+{
+	width: 100%;
+	margin: auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+
+{
+
+	.screen
+
+	{
+
+		display: block;
+
+	}
+
+}
+
+
+
+.screen{}
+
+@media screen and (min-width: 768px) and (max-width: 767px) 
+
+{
+
+	.screen
+
+	{
+
+		display: block;
+
+	}
+
+}
